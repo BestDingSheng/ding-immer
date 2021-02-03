@@ -1,0 +1,14 @@
+{
+  "name": "ding-immer",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "cm": "rollup --config rollup.config.cm.js",
+    "es": "rollup --config rollup.config.es.js",
+    "build": "npm run cm && npm run es"
+  },
+  "author": "",
+  "license": "ISC"
+}
